@@ -1,0 +1,43 @@
+body {
+    background-color: pink;
+}
+
+.logo {
+    color: red;
+}
+.menu-item {
+    color: green;
+}
+
+.menu-item:visited {
+    color: #444;
+}
+#above-the-fold .card p {
+    color: #fff;
+}
+
+.card button {
+    background-color: #AFA;
+    color: #fff;
+}
+
+.blog-article p::first-letter {
+    font-size: 30px;
+    margin-left: 30px;
+}
+p::selection {
+    background-color: yellow;
+}
+.blog {
+    background-color: #666;
+    color: #cff;
+}
+.gallery figure {
+    transition: 2s ;
+}
+.gallery figure:hover {
+    box-shadow: 0 10px 35px 0 #000;
+}
+.gallery figcaption {
+    padding: 8px;
+}
